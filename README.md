@@ -1,117 +1,106 @@
-# Awesome Linux Software
+# Лучшие приложения для Linux
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://awesome.re/)
 
 ![Tux](img/tux.png)
 
-
-🐧 This repo is a collection of **AWESOME** Linux applications and tools for **any users/developers**.
+!! Внимание: это форк (и перевод) репозитория [LewisVo/Awesome-Linux-Software].(https://github.com/LewisVo/Awesome-Linux-Software) с добавлением национального колорита :)
 <br>
-🐧 Feel free to **contribute** / **star** / **fork** / **pull request** . Any **recommendations** and **suggestions** are welcomed.
+🐧 В этом репозитории собраны **ЛУЧШИЕ** Linux-приложения и утилиты для **всех пользователей/разработчиков**.
+<br>
+🐧 **Вносите свой вклад** / **ставьте звезду** / **форкайте** / **делайте pull request** . Буду рад любым **рекомендациям** и **предложениям** по теме.
 
-*Update: This repo has been published on [Gitbook](https://voluong.gitbooks.io/awesome-linux-software/content/). You can share this link to new users since they may find it friendlier to read than github. Download as a pdf [here](https://goo.gl/xhiKla).*
+## Содержание
 
-**Acknowledgement:** *Everything written below is from my own experience in college and after reading various materials. I am neither a professional nor expert, but a student who has great passion. Anyone can open a discussion in the issue section, or a pull request in case something should be modified or added. If you consider my work valuable, a [donation](#donation) is much appreciated.*
-
-Two Chinese version of this list are available [here](https://github.com/alim0x/Awesome-Linux-Software-zh_CN) and [here(already updated lately)](https://github.com/0xE8551CCB/awesome-linux-software-cn).
-## Table of Contents
-
-- [Applications](#applications)
-    - [Audio](#audio)
-    - [Chat Clients](#chat-clients)
-    - [Data Backup and Recovery](#data-backup-and-recovery)
-    - [Desktop Customization](#desktop-customization)
-    - [Development](#development)
-    - [E-Book Utilities](#e-book-utilities)
-    - [Editors](#editors)
-    - [Education](#education)
+- [Приложения](#приложения)
+    - [Аудио](#аудио)
+    - [Мессенджеры](#мессенджеры)
+    - [Архивация и восстановление данных](#архивация-и-восстановление-данных)
+    - [Украшения рабочего стола](#украшения-рабочего-стола)
+    - [Разработка](#разработка)
+    - [Инструменты для E-Book](#инструменты-для-e-book)
+    - [Редакторы](#редакторы)
+    - [Образование](#образование)
     - [Email Utilities](#email)
-    - [File Manager](#file-manager)
-    - [Games](#games)
-    - [Graphics](#graphics)
-    - [Internet](#internet)
-    - [Office](#office)
-    - [Productivity](#productivity)
+    - [Файловые менеджеры](#файловые-менеджеры)
+    - [Игры](#игры)
+    - [Графика](#графика)
+    - [Интернет](#интернет)
+    - [Офисные приложения](#офисные-приложения)
+    - [Производительность](#производительность)
     - [Proxy](#proxy)
-    - [Security](#security)
-    - [Sharing Files](#sharing-files)
-    - [Terminal](#terminal)
-    - [Utilities](#utilities)
-    - [Video](#video)
-    - [Others](#others)
-- [Command Line Utilities](#command-line-utilities)
-- [Desktop Environments](#desktop-environments)
-- [Display Managers](#display-manager)
-	- [Console](#console)
-	- [Graphic](#graphic)
-- [Window Managers](#window-managers)
-	- [Compositors](#compositors)
-	- [Stacking window managers](#stacking-window-managers)
-	- [Tiling window managers](#tiling-window-managers)
-	- [Dynamic window managers](#dynamic-window-managers)
+    - [Безопасность](#безопасность)
+    - [Файловый обмен](#файловый-обмен)
+    - [Терминал](#терминал)
+    - [Утилиты](#утилиты)
+    - [Видео](#видео)
+    - [Прочее](#прочее)
+- [Утилиты командной строки](#утилиты-командной-строки)
+- [Среды рабочего стола](#среды-рабочего-стола)
+- [Менеджеры входа](#менеджеры-входа)
+	- [Консольные](#консольные)
+	- [Графические](#графические)
+- [Оконные менеджеры](#оконные-менеджеры)
+	- [Композитные](#композитные)
+	- [Стековые](#стековые)
+	- [Тайловые](#тайловые)
+	- [Динамические](#динамические)
 
 ***********
 
-- [Setup](#setup)
+- [Установка](#установка)
  	- [ArchLinux](#arch-linux)
  	- [CentOS](#centos)
  	- [openSUSE](#opensuse)
 	- [Ubuntu](#ubuntu)
-- [Discussion Forums](#discussion-forums)
-    - [ArchLinux Forums](#arch-linux-forums)
-    - [CentOS Forums](#centos-forums)
-    - [Ubuntu Forums](#ubuntu-forums)
-    - [openSUSE Forums](#opensuse-forums)
-    - [IRC channels](#irc-channels)
-    - [Linux News, Apps, and more ....](#linux-news-apps-and-more-)
+- [Форумы](#форумы)
+    - [Форумы ArchLinux](#форумы-arch-linux)
+    - [Форумы CentOS Forums](#форумы-centos)
+    - [Форумы Ubuntu Forums](#форумы-ubuntu)
+    - [Форумы openSUSE Forums](#форумы-opensuse)
+    - [IRC каналы](#irc-каналы)
+    - [Новости Linux, Приложения и т.п.](#новости-linux-приложения-и-т-п)
     - [Reddit](#reddit)
-- [Learn Linux](#learn-linux)
-- [Linux Hacking/Development](#linux-hackingdevelopment)
-- [Contributors](#contributors)
-- [Guideline to Contribute](#guideline-to-contribute)
+- [Изучение Linux](#изучение-linux)
+- [Linux Хакинг/Разработка](#linux-хакингразработка)
+- [Контрибуторы](#контрибуторы)
+- [Как помочь](#как-помочь)
 
 ***********
 
 
 
+## Приложения
 
-
-
-
-
-
-
-## Applications
-
-### Audio
-- [Airtime](https://www.sourcefabric.org/en/airtime/download/) - Airtime is the open broadcast software for scheduling and remote station management [![Open-Source Software][OSS Icon]](https://github.com/sourcefabric/Airtime) ![Freeware][Freeware Icon]
-- [Ardour](https://ardour.org/) - Record, Edit, and Mix on Linux ![Freeware][Freeware Icon] [![Open-Source Software][OSS Icon]](https://ardour.org/development.html)
-- [Audacious](http://audacious-media-player.org/) - An open source audio player,  plays your music how you want it, without stealing away your computer’s resources from other tasks.[![Open-Source Software][OSS Icon]](http://audacious-media-player.org/developers) ![Freeware][Freeware Icon]
-- [Audacity](http://www.audacityteam.org/download/linux/) - Free, open source, cross-platform software for recording and editing sounds. [![Open-Source Software][OSS Icon]](https://github.com/audacity/audacity) ![Freeware][Freeware Icon]
-- [Audio Recorder](https://launchpad.net/~audio-recorder/+archive/ubuntu/ppa) - Simple audio recorder available in an Ubuntu PPA. ![Freeware][Freeware Icon]
-- [Cantata](https://www.linux-apps.com/content/show.php/Cantata?content=147733) - Qt5 Graphical MPD (Music Player Daemon) Client for Linux, Windows, MacOS. [![Open-Source Software][OSS Icon]](https://github.com/CDrummond/cantata) ![Freeware][Freeware Icon]
-- [Clementine](https://www.clementine-player.org/) - Play numerous lossy and lossless audio formats. [![Open-Source Software][OSS Icon]](https://github.com/clementine-player/Clementine) ![Freeware][Freeware Icon]
-- [Cmus](https://cmus.github.io/) - cmus is a small, fast and powerful console music player for Unix-like operating systems.
-- [Deepin](https://www.deepin.org/en/original/deepin-music/) - An application developed by Deepin Technology Team which focused on local music playing. [![Open-Source Software][OSS Icon]](https://github.com/linuxdeepin/deepin-music) ![Freeware][Freeware Icon]
-- [Google Play Music](https://www.googleplaymusicdesktopplayer.com/) - Unofficial but beautiful cross platform Desktop Player for Google Play Music.[![Open-Source Software][OSS Icon]](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-) ![Freeware][Freeware Icon]
-- [Gpodder](https://gpodder.github.io/) - Media aggregator and podcast client. [![Open-Source Software][OSS Icon]](https://github.com/gpodder/gpodder) ![Freeware][Freeware Icon]
-- [Harmony](http://getharmony.xyz) - Music player with sleek interface & cloud compatibility. [![Open-Source Software][OSS Icon]](https://github.com/vincelwt/harmony) ![Freeware][Freeware Icon]
-- [Hydrogen](http://www.hydrogen-music.org/hcms/node/21) - Advanced drum machine for GNU/Linux. ![Freeware][Freeware Icon]
-- [K3b](http://www.k3b.org/) - K3b - The CD/DVD Kreator for Linux - optimized for KDE.[![Open-Source Software][OSS Icon]](https://github.com/KDE/k3b)![Freeware][Freeware Icon]
-- [Kid3Qt](https://apps.ubuntu.com/cat/applications/precise/kid3-qt/) - Edit tags of multiple files, e.g. the artist, album, year and genre of all mp3 files of an album.![Freeware][Freeware Icon]
-- [KxStudio](http://kxstudio.linuxaudio.org/) - KXStudio is a collection of applications and plugins for professional audio production.![Freeware][Freeware Icon]
-- [Libretime](http://libretime.org/) - Libre is the open broadcast software for scheduling and remote station management forked from Airtime [![Open-Source Software][OSS Icon]](https://github.com/LibreTime/libretime) ![Freeware][Freeware Icon]
-- [LMMS](https://lmms.io/download/#linux) - Making music on your PC by creating melodies and beats, synthesizing and mixing sounds, arranging samples and much more. [![Open-Source Software][OSS Icon]](https://github.com/LMMS/lmms)![Freeware][Freeware Icon]
-- [Lollypop](http://gnumdk.github.io/lollypop-web) - Lollypop is a new GNOME music playing application. [![Open-Source Software][OSS Icon]](https://github.com/gnumdk/lollypop) ![Freeware][Freeware Icon]
-- [Lyricfier](https://github.com/emilioastarita/lyricfier) - a Spotify Lyrics alternative app. [![Open-Source Software][OSS Icon]](https://github.com/emilioastarita/lyricfier) ![Freeware][Freeware Icon]
-- [Mixxx](http://www.mixxx.org/download/) - Free DJ software that gives you everything you need to perform live mixes, veritable alternative to Traktor. [![Open-Source Software][OSS Icon]](https://github.com/mixxxdj/mixxx) ![Freeware][Freeware Icon]
-- [Museek](http://museeks.io/) - A simple, clean and cross-platform music player. [![Open-Source Software][OSS Icon]](https://github.com/KeitIG/museeks) ![Freeware][Freeware Icon]
-- [Netease Music](http://music.163.com/#/download) -  A music player of Netease ![Freeware][Freeware Icon]
-- [Nuclear](http://nuclear.gumblert.tech/) - An Electron-based, multiplatform music player app that streams from multiple sources.  [![Open-Source Software][OSS Icon]](https://github.com/nukeop/nuclear) ![Freeware][Freeware Icon]
-- [Ocenaudio](http://www.ocenaudio.com/whatis) - ocenaudio is a cross-platform, easy to use, fast and functional audio editor. It is the ideal software for people who need to edit and analyze audio files.![Freeware][Freeware Icon]
-- [OSD Lyrics](https://aur.archlinux.org/packages/osdlyrics-git/) - Show lyrics with your favorite media player. [![Open-Source Software][OSS Icon]](https://github.com/PedroHLC/osdlyrics) ![Freeware][Freeware Icon]
-- [Parlatype](http://gkarsay.github.io/parlatype/) - GNOME audio player for transcription.  [![Open-Source Software][OSS Icon]](https://github.com/gkarsay/parlatype) ![Freeware][Freeware Icon]
-- [Pithos](https://pithos.github.io/) - A native pandora client for Linux  [![Open-Source Software][OSS Icon]](https://github.com/pithos/pithos) ![Freeware][Freeware Icon]
+### Аудио
+- [Airtime](https://www.sourcefabric.org/en/airtime/download/) - Airtime - это свободное программное обеспечение с открытым кодом для живого эфирного и удаленного (с помощью календаря-планировщика) управления радиостанцией, и распределения ресурсов между несколькими радиостанциями посредством веб-браузера. [![Open-Source Software][OSS Icon]](https://github.com/sourcefabric/Airtime) ![Freeware][Freeware Icon]
+- [Ardour](https://ardour.org/) - Запись, редактирование и микширование в Linux ![Freeware][Freeware Icon] [![Open-Source Software][OSS Icon]](https://ardour.org/development.html)
+- [Audacious](http://audacious-media-player.org/) - Аудиоплеер с отрытым исходным кодом,  проигрывает музыку практически не затрагивая ресурсы компьютера.[![Open-Source Software][OSS Icon]](http://audacious-media-player.org/developers) ![Freeware][Freeware Icon]
+- [Audacity](http://www.audacityteam.org/download/linux/) - Бесплатное приложение с открытым кодом для записи и редактирования аудио. [![Open-Source Software][OSS Icon]](https://github.com/audacity/audacity) ![Freeware][Freeware Icon]
+- [Audio Recorder](https://launchpad.net/~audio-recorder/+archive/ubuntu/ppa) - Простенькое приложение для аудиозаписи, доступно в Ubuntu PPA. ![Freeware][Freeware Icon]
+- [Cantata](https://www.linux-apps.com/content/show.php/Cantata?content=147733) - Графический клиент к MPD (Music Player Daemon) на Qt5 для Linux, Windows, MacOS. [![Open-Source Software][OSS Icon]](https://github.com/CDrummond/cantata) ![Freeware][Freeware Icon]
+- [Clementine](https://www.clementine-player.org/) - Проигрывает большинство аудиоформатов, созданных как с потерей, так и без потери качества. [![Open-Source Software][OSS Icon]](https://github.com/clementine-player/Clementine) ![Freeware][Freeware Icon]
+- [Cmus](https://cmus.github.io/) - cmus - маленький, быстрый и мощный консольный аудио плеер для Unix-подобных операционных систем.
+- [Deepin](https://www.deepin.org/en/original/deepin-music/) - Приложение, разработанное Deepin Technology Team, для проигрывания локальной аудиоколлекции. [![Open-Source Software][OSS Icon]](https://github.com/linuxdeepin/deepin-music) ![Freeware][Freeware Icon]
+- [Google Play Music](https://www.googleplaymusicdesktopplayer.com/) - Неофициальный кроссплатформенный проигрыватель для Google Play Music.[![Open-Source Software][OSS Icon]](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-) ![Freeware][Freeware Icon]
+- [Gpodder](https://gpodder.github.io/) - Агрегатор и проигрыватель подкастов. [![Open-Source Software][OSS Icon]](https://github.com/gpodder/gpodder) ![Freeware][Freeware Icon]
+- [Harmony](http://getharmony.xyz) - Аудиопроигрыватель с приятным интерфейсом и облачными возможностями. [![Open-Source Software][OSS Icon]](https://github.com/vincelwt/harmony) ![Freeware][Freeware Icon]
+- [Hydrogen](http://www.hydrogen-music.org/hcms/node/21) - Мощная драм-машина под GNU/Linux. ![Freeware][Freeware Icon]
+- [K3b](http://www.k3b.org/) - K3b - Создание CD/DVD дисков в Linux - оптимизирована под KDE.[![Open-Source Software][OSS Icon]](https://github.com/KDE/k3b)![Freeware][Freeware Icon]
+- [Kid3Qt](https://apps.ubuntu.com/cat/applications/precise/kid3-qt/) - Мощный редактор тегов, таких как Исполнитель, Альбом, год и жанр любых файлов mp3.![Freeware][Freeware Icon]
+- [KxStudio](http://kxstudio.linuxaudio.org/) - KXStudio это группа приложений и плагинов для профессионального создания аудио.![Freeware][Freeware Icon]
+- [Libretime](http://libretime.org/) - Libre - форк Airtime [![Open-Source Software][OSS Icon]](https://github.com/LibreTime/libretime) ![Freeware][Freeware Icon]
+- [LMMS](https://lmms.io/download/#linux) - Создание музыки на вашем PC - создание мелодий, синтезирование и микширование, арранжировка семплов и многое другое. [![Open-Source Software][OSS Icon]](https://github.com/LMMS/lmms)![Freeware][Freeware Icon]
+- [Lollypop](http://gnumdk.github.io/lollypop-web) - Lollypop это новый плеер для GNOME. [![Open-Source Software][OSS Icon]](https://github.com/gnumdk/lollypop) ![Freeware][Freeware Icon]
+- [Lyricfier](https://github.com/emilioastarita/lyricfier) - Альтернатива Spotify Lyrics. [![Open-Source Software][OSS Icon]](https://github.com/emilioastarita/lyricfier) ![Freeware][Freeware Icon]
+- [Mixxx](http://www.mixxx.org/download/) - Свободное приложение для DJ, предлагающее все необходимое для создания живых миксов, полноценная альтернатива приложению Traktor. [![Open-Source Software][OSS Icon]](https://github.com/mixxxdj/mixxx) ![Freeware][Freeware Icon]
+- [Museek](http://museeks.io/) - Красивый кроссплатформенный аудиоплеер. [![Open-Source Software][OSS Icon]](https://github.com/KeitIG/museeks) ![Freeware][Freeware Icon]
+- [Netease Music](http://music.163.com/#/download) -  плеер для Netease ![Freeware][Freeware Icon]
+- [Nuclear](http://nuclear.gumblert.tech/) - Основанный на Electron мультиплатформенный аудиоплеер.  [![Open-Source Software][OSS Icon]](https://github.com/nukeop/nuclear) ![Freeware][Freeware Icon]
+- [Ocenaudio](http://www.ocenaudio.com/whatis) - ocenaudio это кроссплатформенный, легкий в использовании, быстрый и функциональный аудиоредактор. ![Freeware][Freeware Icon]
+- [OSD Lyrics](https://aur.archlinux.org/packages/osdlyrics-git/) - Вывод текстов песен в любом плеере. [![Open-Source Software][OSS Icon]](https://github.com/PedroHLC/osdlyrics) ![Freeware][Freeware Icon]
+- [Parlatype](http://gkarsay.github.io/parlatype/) - аудиоплеер для распознавания речевой записи под GNOME.  [![Open-Source Software][OSS Icon]](https://github.com/gkarsay/parlatype) ![Freeware][Freeware Icon]
+- [Pithos](https://pithos.github.io/) - Клиент pandora для Linux  [![Open-Source Software][OSS Icon]](https://github.com/pithos/pithos) ![Freeware][Freeware Icon]
 - [PulseEffect](https://github.com/wwmm/pulseeffects) - Limiter, compressor, reverberation, equalizer and auto volume effects for Pulseaudio applications [![Open-Source Software][OSS Icon]](https://github.com/wwmm/pulseeffects) ![Freeware][Freeware Icon]
 - [Quod Libet](https://quodlibet.readthedocs.io) - GTK+ music player written with huge libraries in mind. Quod Libet supports search-based dynamic playlists, regular expressions, tagging, Replay Gain, podcasts & Internet radio. [![Open-Source Software][OSS Icon]](https://github.com/quodlibet/quodlibet) ![Freeware][Freeware Icon]
 - [RadioTray-NG](https://github.com/ebruck/radiotray-ng) - An Internet radio player for Linux. [![Open-Source Software][OSS Icon]](https://github.com/ebruck/radiotray-ng) ![Freeware][Freeware Icon]
@@ -124,34 +113,34 @@ Two Chinese version of this list are available [here](https://github.com/alim0x/
 - [Tomahawk](https://www.tomahawk-player.org/) -A new kind of music player that invites all your streams, downloads, cloud music storage, playlists, radio stations and more. [![Open-Source Software][OSS Icon]](https://github.com/tomahawk-player/tomahawk)![Freeware][Freeware Icon]
 - [Vocal](http://vocalproject.net/) - Podcast Client for the Modern Desktop. [![Open-Source Software][OSS Icon]](https://github.com/vocalapp) ![Freeware][Freeware Icon]
 
-### Chat Clients
-- [Caprine](https://sindresorhus.com/caprine) - Elegant Facebook Messenger desktop app. [![Open-Source Software][OSS Icon]](https://github.com/sindresorhus/caprine) ![Freeware][Freeware Icon]
-- [Chatty](http://chatty.github.io/) - Chatty is a Twitch chat client for everyone who wants to try something new and different from the webchat, but doesn't want the complexity of an IRC client or miss out on the Twitch specific features.[![Open-Source Software][OSS Icon]](https://github.com/chatty/chatty) ![Freeware][Freeware Icon]
-- [Cutegram](http://aseman.co/en/products/cutegram/) - Offers more features than the official Telegram app [![Open-Source Software][OSS Icon]](https://github.com/Aseman-Land/Cutegram) ![Freeware][Freeware Icon]
-- [Dino](https://dino.im) - Clean and modern Jabber/XMPP chat client [![Open-Source Software][OSS Icon]](https://github.com/dino/dino) ![Freeware][Freeware Icon]
-- [Discord](https://discordapp.com/) - All-in-one voice and text chat for gamers that’s free, secure, and works on both your desktop and phone. ![Freeware][Freeware Icon]
-- [Franz](http://meetfranz.com/) - Franz is a free messaging app that combines many chat & messaging services into one application.![Freeware][Freeware Icon]
-- [GhettoSkype](https://github.com/stanfieldr/ghetto-skype) - open source web wrapper for Skype. [![Open-Source Software][OSS Icon]](https://github.com/stanfieldr/ghetto-skype) ![Freeware][Freeware Icon]
-- [Gitter](https://gitter.im/) - Gitter — Where developers come to talk. Gitter is designed to make community messaging, collaboration and discovery as smooth and simple as possible. [![Open-Source Software][OSS Icon]](https://github.com/gitterHQ/services) ![Freeware][Freeware Icon]
-- [HexChat](https://hexchat.github.io/) - HexChat is an IRC client based on XChat, but unlike XChat it’s completely free for both Windows and Unix-like system.[![Open-Source Software][OSS Icon]](https://github.com/hexchat) ![Freeware][Freeware Icon]
-- [Irssi](https://github.com/irssi/irssi) - Irssi is a modular chat client that is most commonly known for its text mode user interface. [![Open-Source Software][OSS Icon]](https://github.com/irssi/irssi) ![Freeware][Freeware Icon]
-- [Jitsi](https://jitsi.org/) - Jitsi is a free and open source multiplatform voice, videoconferencing and instant messaging application for Windows, Linux, Mac OS X and Android. [![Open-Source Software][OSS Icon]](https://github.com/jitsi) ![Freeware][Freeware Icon]
-- [KVIrc](http://www.kvirc.net/) - KVIrc is a free portable IRC client based on the excellent Qt GUI toolkit. [![Open-Source Software][OSS Icon]](https://github.com/kvirc/KVIrc) ![Freeware][Freeware Icon]
-- [Messenger for Desktop](https://messengerfordesktop.com/#download) - An app for Facebook messenger. [![Open-Source Software][OSS Icon]](https://github.com/Aluxian/Facebook-Messenger-Desktop) ![Freeware][Freeware Icon]
-- [Pidgin](http://askubuntu.com/questions/307622/update-pidgin-using-apt-get) - A universal chat client. ![Freeware][Freeware Icon]
-- [qTox](https://qtox.github.io/) - A simple distributed, secure messenger with audio and video chat capabilities. [![Open-Source Software][OSS Icon]](https://github.com/qTox/qTox) ![Freeware][Freeware Icon]
-- [Rambox](http://rambox.pro/) - Free, Open Source and Cross Platform messaging and emailing app that combines common web applications into one. [![Open-Source Software][OSS Icon]](https://github.com/saenzramiro/rambox) ![Freeware][Freeware Icon]
-- [Ring](https://ring.cx/) - Chat. Talk. Share. Ring is a free and universal communication platform which preserves the users' privacy and freedoms. [![Open-Source Software][OSS Icon]](https://ring.cx/en/documentation/faq#node-106) ![Freeware][Freeware Icon]
-- [Riot](https://riot.im/) - A glossy Matrix collaboration client for the web. [![Open-Source Software][OSS Icon]](https://github.com/vector-im/riot-web) ![Freeware][Freeware Icon]
-- [ScudCloud](https://github.com/raelgc/scudcloud/) - A Slack client for Linux. [![Open-Source Software][OSS Icon]](https://github.com/raelgc/scudcloud/) ![Freeware][Freeware Icon]
-- [Skype](https://www.skype.com/en/) - Skype keeps the world talking, for free. ![Freeware][Freeware Icon]
-- [Slack](https://slack.com/downloads/linux) - real-time messaging, archiving and search for modern teams. ![Freeware][Freeware Icon]
-- [Telegram](https://desktop.telegram.org/) - A messaging app with a focus on speed and security, it’s super fast, simple and free. [![Open-Source Software][OSS Icon]](https://github.com/telegramdesktop/tdesktop) ![Freeware][Freeware Icon]
-- [Viber](https://www.viber.com/en/products/linux) -Viber for Linux lets you send free messages and make free calls to other Viber users on any device and network, in any country ![Freeware][Freeware Icon]
-- [Weechat](https://weechat.org/) - WeeChat is a fast, light and extensible chat client .[![Open-Source Software][OSS Icon]](https://github.com/weechat) ![Freeware][Freeware Icon]
-- [Wire](https://wire.com/en/) - Secure communication. Full privacy. [![Open-Source Software][OSS Icon]](https://github.com/wireapp) ![Freeware][Freeware Icon]
+### Мессенджеры
+- [Caprine](https://sindresorhus.com/caprine) - Элегантное приложение для Facebook Messenger. [![Open-Source Software][OSS Icon]](https://github.com/sindresorhus/caprine) ![Freeware][Freeware Icon]
+- [Chatty](http://chatty.github.io/) - Chatty - клиент чатов в Twitch.[![Open-Source Software][OSS Icon]](https://github.com/chatty/chatty) ![Freeware][Freeware Icon]
+- [Cutegram](http://aseman.co/en/products/cutegram/) - Наиболее функциональный десктопный клиент Telegram [![Open-Source Software][OSS Icon]](https://github.com/Aseman-Land/Cutegram) ![Freeware][Freeware Icon]
+- [Dino](https://dino.im) - Лёгкий и современный клиент Jabber/XMPP [![Open-Source Software][OSS Icon]](https://github.com/dino/dino) ![Freeware][Freeware Icon]
+- [Discord](https://discordapp.com/) - голосовые и текстовые чаты для геймеров. Бесплатно, безопасно и кроссплатформенно. ![Freeware][Freeware Icon]
+- [Franz](http://meetfranz.com/) - Franz - бесплатное приложение, объединяющее в себе множество служб обмена сообщениями. ![Freeware][Freeware Icon]
+- [GhettoSkype](https://github.com/stanfieldr/ghetto-skype) - приложение-обёртка для Skype с открытым исходным кодом. [![Open-Source Software][OSS Icon]](https://github.com/stanfieldr/ghetto-skype) ![Freeware][Freeware Icon]
+- [Gitter](https://gitter.im/) - Gitter — здесь общаются разработчики. Gitter спроектирован для простой и удобной совместной работы и общения. [![Open-Source Software][OSS Icon]](https://github.com/gitterHQ/services) ![Freeware][Freeware Icon]
+- [HexChat](https://hexchat.github.io/) - HexChat это клиент IRC, основанный на XChat, но бесплатный и работающий как в Windows, так и в Unix-подобных системах.[![Open-Source Software][OSS Icon]](https://github.com/hexchat) ![Freeware][Freeware Icon]
+- [Irssi](https://github.com/irssi/irssi) - Irssi модульный клиент чата, большинство знает его по удобному консольному интерфейсу. [![Open-Source Software][OSS Icon]](https://github.com/irssi/irssi) ![Freeware][Freeware Icon]
+- [Jitsi](https://jitsi.org/) - Jitsi это бесплатное и кроссплатформенное приложение для общения голосом, видеоконференций и обмена сообщениями под Windows, Linux, Mac OS X и Android. [![Open-Source Software][OSS Icon]](https://github.com/jitsi) ![Freeware][Freeware Icon]
+- [KVIrc](http://www.kvirc.net/) - KVIrc это бесплатный IRC клиент, с интерфейсом на Qt. [![Open-Source Software][OSS Icon]](https://github.com/kvirc/KVIrc) ![Freeware][Freeware Icon]
+- [Messenger for Desktop](https://messengerfordesktop.com/#download) - Приложение для сервиса Facebook messenger. [![Open-Source Software][OSS Icon]](https://github.com/Aluxian/Facebook-Messenger-Desktop) ![Freeware][Freeware Icon]
+- [Pidgin](http://askubuntu.com/questions/307622/update-pidgin-using-apt-get) - Универсальный и многопротокольный мессенджер. ![Freeware][Freeware Icon]
+- [qTox](https://qtox.github.io/) - безопасный распределённый мессенджер с поддержкой аудио и видеочатов. [![Open-Source Software][OSS Icon]](https://github.com/qTox/qTox) ![Freeware][Freeware Icon]
+- [Rambox](http://rambox.pro/) - Бесплатное кросс-платформенное приложение с открытым кодом для обмена сообщениями и почтой, объединяющее в себе множество сервисов. [![Open-Source Software][OSS Icon]](https://github.com/saenzramiro/rambox) ![Freeware][Freeware Icon]
+- [Ring](https://ring.cx/) - Пиши. Говори. Делись. Ring это универсальная платформа для коммуникаций, сохраняющая приватность пользователей. [![Open-Source Software][OSS Icon]](https://ring.cx/en/documentation/faq#node-106) ![Freeware][Freeware Icon]
+- [Riot](https://riot.im/) - Клиент протокола Matrix для общения через интернет. [![Open-Source Software][OSS Icon]](https://github.com/vector-im/riot-web) ![Freeware][Freeware Icon]
+- [ScudCloud](https://github.com/raelgc/scudcloud/) - клиент Slack для Linux. [![Open-Source Software][OSS Icon]](https://github.com/raelgc/scudcloud/) ![Freeware][Freeware Icon]
+- [Skype](https://www.skype.com/en/) - всем известный Skype. ![Freeware][Freeware Icon]
+- [Slack](https://slack.com/downloads/linux) - общение в реальном времени, история и поиск для современных команд. ![Freeware][Freeware Icon]
+- [Telegram](https://desktop.telegram.org/) - Мессенджер с уклоном на скорость и безопасность, шустрый, лёгкий и бесплатный. [![Open-Source Software][OSS Icon]](https://github.com/telegramdesktop/tdesktop) ![Freeware][Freeware Icon]
+- [Viber](https://www.viber.com/en/products/linux) - в Viber можно писать и звонить бесплатно другим пользователям Viber ![Freeware][Freeware Icon]
+- [Weechat](https://weechat.org/) - WeeChat - быстрый, лёгкий и расширяемый мессенджер .[![Open-Source Software][OSS Icon]](https://github.com/weechat) ![Freeware][Freeware Icon]
+- [Wire](https://wire.com/en/) - Безопасное общение. Полная приватность. [![Open-Source Software][OSS Icon]](https://github.com/wireapp) ![Freeware][Freeware Icon]
 
-### Data Backup and Recovery
+### Архивация и восстановление данных
 - [Borg Backup](https://borgbackup.readthedocs.io/en/stable/) - A nice tool to backup data.[![Open-Source Software][OSS Icon]](https://borgbackup.readthedocs.io/en/stable/development.html) ![Freeware][Freeware Icon]
 - [Deja Dup](https://www.linux.com/learn/total-system-backup-and-recall-deja-dup) - A simple backup tool with built-in encryption [![Open-Source Software][OSS Icon]](https://launchpad.net/deja-dup)![Freeware][Freeware Icon]
 - [Duplicity](http://duplicity.nongnu.org/) - Duplicity backs directories by producing encrypted tar-format volumes and uploading them to a remote or local file server.[![Open-Source Software][OSS Icon]](https://launchpad.net/duplicity) ![Freeware][Freeware Icon]
@@ -163,7 +152,7 @@ Two Chinese version of this list are available [here](https://github.com/alim0x/
 - [Test Disk](http://www.cgsecurity.org/wiki/TestDisk) - TestDisk is powerful free data recovery software! It was primarily designed to help recover lost partitions and/or make non-booting disks bootable again when these symptoms are caused by faulty software. ![Freeware][Freeware Icon]
 - [Timeshift](https://launchpad.net/timeshift) - TimeShift is a system restore utility which takes incremental snapshots of the system using rsync and hard-links. These snapshots can be restored at a later date to undo all changes that were made to the system after the snapshot was taken. Snapshots can be taken manually or at regular intervals using scheduled jobs.![Freeware][Freeware Icon]
 
-### Desktop customization
+### Украшения рабочего стола
 - [Adapta Theme](https://github.com/tista500/Adapta) - An adaptive Gtk+ theme based on Material Design Guidelines. ![Open-Source Software][OSS Icon] ![Freeware][Freeware Icon]
 - [Arc Icon Theme](https://github.com/horst3180/arc-icon-theme) - A modern icon theme which should be used with Moka Icon Theme. ![Open-Source Software][OSS Icon] ![Freeware][Freeware Icon]
 - [Arc Theme](https://github.com/horst3180/arc-theme) - A flat theme with transparent elements ![Open-Source Software][OSS Icon] ![Freeware][Freeware Icon]
@@ -185,7 +174,7 @@ Two Chinese version of this list are available [here](https://github.com/alim0x/
 - [Wpgtk](https:github.com/deviantfero/wpgtk) - A universal theming software for all themes defined in text files, compatible with all terminals, with default themes for GTK2, GTK+, openbox and Tint2 that uses pywal as it's core for colorscheme generation.
 - [Yosembiance theme](https://github.com/bsundman/Yosembiance) - A modified Ambiance theme (loosely) inspired by OSX Yosemite. [![Open-Source Software][OSS Icon]](https://github.com/bsundman/Yosembiance) ![Freeware][Freeware Icon]
 
-### Development
+### Разработка
 - [Anbox](https://anbox.io) - Run Android applications on any GNU/Linux operating system.[![Open-Source Software][OSS Icon]](https://github.com/anbox/anbox) ![Freeware][Freeware Icon]
 - [Android studio](https://developer.android.com/studio/index.html) - The Official IDE for Android: Android Studio provides the fastest tools for building apps on every type of Android device.![Freeware][Freeware Icon]
 - [AppImage](http://appimage.org/) - A format and tools to distribute Linux desktop applications to users of many distributions. [![Open-Source Software][OSS Icon]](http://appimage.org/) ![Freeware][Freeware Icon]
@@ -246,7 +235,7 @@ Two Chinese version of this list are available [here](https://github.com/alim0x/
 - [Zeal](https://zealdocs.org/) - Zeal is an offline documentation browser for software developers. [![Open-Source Software][OSS Icon]](https://github.com/zealdocs/zeal)![Freeware][Freeware Icon]
 - [Zsh](http://www.zsh.org/) -  A powerful command line shell. [![Open-Source Software][OSS Icon]](http://sourceforge.net/p/zsh/code/ci/master/tree/)
 
-### E-Book Utilities
+### Инструменты для E-Book
 - [Bookworm](https://babluboy.github.io/bookworm/) - A simple, focused eBook reader. [![Open-Source Software][OSS Icon]](https://github.com/babluboy/bookworm) ![Freeware][Freeware Icon]
 - [Buka](https://github.com/oguzhaninan/Buka/releases) - EBook Management [![Open-Source Software][OSS Icon]](https://github.com/oguzhaninan/Buka) ![Freeware][Freeware Icon]
 - [Calibre](http://calibre-ebook.com/) - Incredibly ugly but powerful software for ebook management and conversion. [![Open-Source Software][OSS Icon]](https://github.com/kovidgoyal/calibre) ![Freeware][Freeware Icon]
@@ -266,7 +255,7 @@ Two Chinese version of this list are available [here](https://github.com/alim0x/
 - [Sigil](https://github.com/Sigil-Ebook/Sigil) - Sigil is a multi-platform EPUB ebook editor.[![Open-Source Software][OSS Icon]](https://github.com/Sigil-Ebook/Sigil) ![Freeware][Freeware Icon]
 - [Zathura](https://pwmt.org/projects/zathura/) - Zathura is a highly customizable and functional document viewer. [![Open-Source Software][OSS Icon]](https://git.pwmt.org/pwmt/zathura.git) ![Freeware][Freeware Icon]
 
-### Editors
+### Редакторы
 - [Atom](https://atom.io/) - Hackable text editor for the 21st century. [![Open-Source Software][OSS Icon]](https://github.com/atom/atom) ![Freeware][Freeware Icon]
 - [Bluefish](http://bluefish.openoffice.nl/index.html) - Bluefish is a powerful editor targeted towards programmers and webdevelopers, with many options to write websites, scripts and programming code.![Freeware][Freeware Icon]
 - [Brackets](http://brackets.io/) - A modern text editor that understands web design. [![Open-Source Software][OSS Icon]](https://github.com/adobe/brackets) ![Freeware][Freeware Icon]
@@ -282,7 +271,7 @@ Two Chinese version of this list are available [here](https://github.com/alim0x/
 - [Vim](http://www.vim.org/download.php) -Vim is an advanced text editor that seeks to provide the power of the de-facto Unix editor 'Vi', with a more complete feature set. It's useful whether you're already using vi or using a different editor. [![Open-Source Software][OSS Icon]](https://github.com/vim/vim)![Freeware][Freeware Icon]
 - [VSCode](https://code.visualstudio.com) - Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, OS X and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (C++, C#, Python, PHP) and runtimes.![Freeware][Freeware Icon]
 
-### Education
+### Образование
 - [BibleTime](http://bibletime.info/) - BibleTime is a Bible study application based on the Sword library and Qt toolkit. [![Open-Source Software][OSS Icon]](https://github.com/bibletime/bibletime)![Freeware][Freeware Icon]
 - [Celestia](http://celestiaproject.net/) - The free space simulation that lets you explore our universe in three dimensions.[![Open-Source Software][OSS Icon]](https://sourceforge.net/projects/celestia/files/Celestia-source/1.6.1/celestia-1.6.1.tar.gz/download)![Freeware][Freeware Icon]
 - [Chemtool](http://ruby.chemie.uni-freiburg.de/~martin/chemtool/) - Chemtool is a small program for drawing chemical structures on Linux. [![Open-Source Software][OSS Icon]](https://github.com/opp11/chemtool/blob/master/README.md)![Freeware][Freeware Icon]
@@ -325,7 +314,7 @@ Two Chinese version of this list are available [here](https://github.com/alim0x/
 - [Vmail](http://danielchoi.com/software/vmail.html) - Vim-like Gmail client [![Open-Source Software][OSS Icon]](https://github.com/danchoi/vmail)![Freeware][Freeware Icon]
 - [Wmail](https://github.com/Thomas101/wmail) - Gmail & Google Inbox unofficial desktop client for Linux. [![Open-Source Software][OSS Icon]](https://github.com/Thomas101/wmail)![Freeware][Freeware Icon]
 
-### File Manager
+### Файловые менеджеры
 - [7Zip](http://www.7-zip.org/download.html) - Unzip any zip files![Freeware][Freeware Icon]
 - [AngrySearch](https://github.com/DoTheEvo/ANGRYsearch) - Linux file search, instant results as you type. [![Open-Source Software][OSS Icon]](https://code.launchpad.net/catfish-search) ![Freeware][Freeware Icon]
 - [Catfish](https://launchpad.net/catfish-search) - Catfish is a versatile file searching tool. [![Open-Source Software][OSS Icon]](https://github.com/DoTheEvo/ANGRYsearch) ![Freeware][Freeware Icon]
@@ -340,7 +329,7 @@ Two Chinese version of this list are available [here](https://github.com/alim0x/
 - [Synapse](https://launchpad.net/ubuntu/xenial/+source/synapse) - Best application launcher on linux.![Freeware][Freeware Icon]
 - [Thunar](https://apps.ubuntu.com/cat/applications/precise/thunar/) - Thunar is the file manager designed to be the default file manager of Xfce 4.6 It has been designed to be fast and easy to use. [![Open-Source Software][OSS Icon]](https://github.com/luisgg/thunar) ![Freeware][Freeware Icon]
 
-### Games
+### Игры
 **Warning: This game list may be outdated. Games inside store like Steam are also not included on this list.**
 - [0 A.D](https://play0ad.com/) - Age of Empires like open source RTS game.
 - [Air for Steam](http://airforsteam.com/) - Material design inspired skin for Steam with 3 colour options.
@@ -371,7 +360,7 @@ Two Chinese version of this list are available [here](https://github.com/alim0x/
 - [Wine](https://www.winehq.org/) - Wine (originally an acronym for "Wine Is Not an Emulator") is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, Mac OSX, & BSD [![Open-Source Software][OSS Icon]](https://github.com/wine-mirror/wine) ![Freeware][Freeware Icon]
 - [Xonotic](http://xonotic.org/) - Arena shooter inspired by Unreal Tournament and Quake. [![Open-Source Software][OSS Icon]](https://gitlab.com/groups/xonotic) ![Freeware][Freeware Icon]
 
-### Graphics
+### Графика
 - [Aftershot](http://www.aftershotpro.com/en/products/aftershot/pro/) - A powerful alternative to Adobe Photoshop!
 - [Agave](http://home.gna.org/colorscheme/) - Agave is a very simple application for the GNOME desktop that allows you to generate a variety of colorschemes from a single starting color![Freeware][Freeware Icon]
 - [Blender](https://www.blender.org/) - a free and open source complete 3D creation pipeline for artists and small teams.![Freeware][Freeware Icon]
@@ -416,7 +405,7 @@ Two Chinese version of this list are available [here](https://github.com/alim0x/
 - [Vidcutter](http://vidcutter.ozmartians.com/) - Cross-platform Qt5 based app for quick and easy video trimming/splitting and merging/joining for simple quick edits.![Freeware][Freeware Icon] [![Open-Source Software][OSS Icon]](https://github.com/ozmartian/vidcutter)
 - [Xara Extreme](http://www.xaraxtreme.org/) - Xara Xtreme for Linux is a powerful, general purpose graphics program for Unix platforms including Linux, FreeBSD![Freeware][Freeware Icon]
 
-### Internet
+### Интернет
 - [Brave](https://brave.com/) - Brave is a fast, good desktop browser for macOS, Windows, and Linux.![Freeware][Freeware Icon] [![Open-Source Software][OSS Icon]](https://github.com/brave/browser-laptop)
 - [Chrome](https://www.google.com/chrome/browser/desktop/index.html) - A popular Web Browser with a lot of plugins/apps.![Freeware][Freeware Icon]
 - [Chromium](http://askubuntu.com/questions/250773/how-do-i-install-chromium-from-the-command-line) - Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.![Freeware][Freeware Icon] [![Open-Source Software][OSS Icon]](https://www.chromium.org/)
@@ -437,7 +426,7 @@ Two Chinese version of this list are available [here](https://github.com/alim0x/
 - [Yandex](https://browser.yandex.com/desktop/main/) - Fast and convenient browser.![Freeware][Freeware Icon]
 - [youtube-dl](https://github.com/rg3/youtube-dl) - It can download videos from youtube.com or other video platforms. It's really awesome, at least for me. ![Freeware][Freeware Icon] [![Open-Source Software][OSS Icon]](https://github.com/rg3/youtube-dl).
 
-### Office
+### Офисные приложения
 - Gummi [gtk2](https://github.com/alexandervdm/gummi)|[gtk3](https://github.com/aitjcize/Gummi) - Simple latex editor with templates, spell check, and wizards.![Freeware][Freeware Icon] [![Open-Source Software][OSS Icon]](https://github.com/alexandervdm/gummi)
 - [Caligra Office](https://www.calligra.org/) - offers a comprehensive set of 8 applications which satisfies the office, graphics and management needs.![Freeware][Freeware Icon]
 - [GnuCash](https://www.gnucash.org/) - GnuCash is a free software accounting program that implements a double-entry bookkeeping system. It was initially aimed at developing capabilities similar to Intuit, Inc.'s Quicken application, but also has features for small business accounting. ![Freeware][Freeware Icon] [![Open-Source Software][OSS Icon]](https://github.com/Gnucash/)
@@ -451,7 +440,7 @@ Two Chinese version of this list are available [here](https://github.com/alim0x/
 - [Texmaker](http://www.xm1math.net/texmaker/) - Free cross-platform LaTeX editor. ![Freeware][Freeware Icon]
 - [WPS office](http://wps-community.org/) - One of the best office app bundle for Linux.![Freeware][Freeware Icon]
 
-### Productivity
+### Производительность
 - [Alarm Clock](http://alarm-clock.pseudoberries.com/) - Alarm Clock is a fully-featured alarm clock for your GNOME panel or equivalent.  [![Open-Source Software][OSS Icon]](http://bazaar.launchpad.net/~joh/alarm-clock/trunk/files) ![Freeware][Freeware Icon]
 - [Ambient Noise](https://itsfoss.com/ambient-noise-music-player-ubuntu/) - Install ambient noise for extra focus on Linux![Freeware][Freeware Icon]
 - [Autokey](https://code.google.com/archive/p/autokey/) - A desktop automation utility for Linux allows you to manage collection of scripts and phrases, and assign abbreviations and hotkeys to these. ![Freeware][Freeware Icon]
@@ -498,7 +487,7 @@ Two Chinese version of this list are available [here](https://github.com/alim0x/
 - [ProxyChains](https://github.com/haad/proxychains) - A tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy. [![Open-Source Software][OSS Icon]](https://github.com/haad/proxychains) ![Freeware][Freeware Icon]
 - [Shadowsocks](https://shadowsocks.org/en/index.html) - A secure socks5 proxy, designed to protect your Internet traffic. [![Open-Source Software][OSS Icon]](https://github.com/shadowsocks/shadowsocks-qt5/releases) ![Freeware][Freeware Icon]
 
-### Security
+### Безопасность
 - [ClamAV](https://www.clamav.net/) - Clam Anti Virus ![Freeware][Freeware Icon]
 - [Fail2ban](http://www.fail2ban.org/wiki/index.php/Main_Page) - Fail2ban scans log files (e.g. /var/log/apache/error_log) and bans IPs that show the malicious signs -- too many password failures, seeking for exploits, etc.![Freeware][Freeware Icon]
 - [FireHOL](https://firehol.org) - Linux firewall (`iptables`) manager for humans. [![Open-Source Software][OSS Icon]](https://github.com/firehol/firehol) ![Freeware][Freeware Icon]
@@ -515,7 +504,7 @@ firewall zones to define the trust level of network connections or interfaces. !
 - [Tcpdump](http://www.tcpdump.org/) - TCP Debugging/Capture Tool![Freeware][Freeware Icon]
 - [Update-IPsets](https://iplists.firehol.org) - A manager for all cybercrime IP feeds that can download, convert and install netfilter `ipsets`. [![Open-Source Software][OSS Icon]](https://github.com/firehol/blocklist-ipsets) ![Freeware][Freeware Icon]
 
-### Sharing Files
+### Файловый обмен
 - [aria2](https://aria2.github.io/) - aria2 is a lightweight multi-protocol & multi-source command-line download utility. [![Open-Source Software][OSS Icon]](https://github.com/aria2/aria2) ![Freeware][Freeware Icon]
 - [CrossFTP](http://www.crossftp.com/ftp-client.htm) - CrossFTP makes it extremely simple to manage the FTP related tasks.![Freeware][Freeware Icon]
 - [D-lan](http://www.d-lan.net/) - A free LAN file sharing software.![Freeware][Freeware Icon]
@@ -539,7 +528,7 @@ firewall zones to define the trust level of network connections or interfaces. !
 - [uTorrent](http://www.utorrent.com) - Elegant, efficient torrent downloading. ![Freeware][Freeware Icon]
 - [Vuze](http://www.vuze.com) - Bittorrent Client is an end-to-end software application for all your torrent needs. ![Freeware][Freeware Icon]
 
-### Terminal
+### Терминал
 - [Cool Retro Term](https://github.com/Swordfish90/cool-retro-term) - A good looking terminal that mimicks the old cathode display [![Open-Source Software][OSS Icon]](https://github.com/Swordfish90/cool-retro-term)
 - [GnomeTerminal](https://help.gnome.org/users/gnome-terminal/stable/) - A widely preinstalled terminal emulator in Linux world ![Freeware][Freeware Icon]
 - [Guake](http://guake.org/) - Guake is a top-down terminal for Gnome![Freeware][Freeware Icon]
@@ -559,7 +548,7 @@ firewall zones to define the trust level of network connections or interfaces. !
 - [Xterm](http://invisible-island.net/xterm/) - The xterm program is a terminal emulator for the X Window System. It provides DEC VT102 and Tektronix 4014 compatible terminals for programs that can't use the window system directly.![Freeware][Freeware Icon]
 - [Yakuake](https://yakuake.kde.org/) - A Quake-style terminal emulator based on KDE Konsole technology.![Freeware][Freeware Icon]
 
-### Utilities
+### Утилиты
 - [Actionaz](http://actionaz.org/) - Automation tasks utility for Ubuntu/Linux![Freeware][Freeware Icon]
 - [Albert](https://github.com/ManuelSchneid3r/albert/wiki/User-guide#how-to-install-albert) - An awesome application launcher for the Linux desktop [![Open-Source Software][OSS Icon]](https://github.com/ManuelSchneid3r/albert) ![Freeware][Freeware Icon]
 - [Aptik](http://www.teejeetech.in/2014/01/introducing-aptik.html) - A tool for you to organize your Favorite PPAs and manage Packages Easily. [![Open-Source Software][OSS Icon]](https://code.launchpad.net/~teejee2008/apt-toolkit/trunk) ![Freeware][Freeware Icon]
@@ -622,7 +611,7 @@ firewall zones to define the trust level of network connections or interfaces. !
 - [Wormhole](https://github.com/warner/magic-wormhole) - get arbitrary-sized files and directories (or short pieces of text) from one computer to another safely. [![Open-Source Software][OSS Icon]](https://github.com/warner/magic-wormhole) ![Freeware][Freeware Icon]
 - [Xtreme Download Manager](http://xdman.sourceforge.net/) - A good download manager with fresh UI for Linux.[![Open-Source Software][OSS Icon]](https://github.com/KaOS-Community-Packages/xdm) ![Freeware][Freeware Icon]
 
-### Video
+### Видео
 - [Bomi Player](https://bomi-player.github.io/) - A powerful and easy-to-use multimedia player.[![Open-Source Software][OSS Icon]](https://github.com/xylosper/bomi)![Freeware][Freeware Icon]
 - [Cheese](https://wiki.gnome.org/Apps/Cheese) - Cheese uses your webcam to take photos and videos, applies fancy special effects and lets you share the fun with others. [![Open-Source Software][OSS Icon]](https://github.com/GNOME/cheese)![Freeware][Freeware Icon]
 - [Kodi](https://kodi.tv/about/) - An award-winning free and open source (GPL) software media center for playing videos, music, pictures, games, and more.[![Open-Source Software][OSS Icon]](https://github.com/xbmc/xbmc)![Freeware][Freeware Icon]
@@ -633,13 +622,13 @@ firewall zones to define the trust level of network connections or interfaces. !
 - [SVP](https://www.svp-team.com/w/index.php?title=Main_Page) - SVP allows you to watch any video on your desktop computer using frame interpolation as it is available on high-end TVs and projectors.![Freeware][Freeware Icon]
 - [VLC](http://www.videolan.org/vlc/index.html) - VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols. [![Open-Source Software][OSS Icon]](https://www.videolan.org/vlc/download-sources.html)![Freeware][Freeware Icon]
 
-### Others
+### Прочее
 - [GrubCustomizer](https://launchpad.net/grub-customizer) - Grub Customizer is a graphical interface to configure the GRUB2/BURG settings and menuentries. [![Open-Source Software][OSS Icon]](https://code.launchpad.net/grub-customizer) ![Freeware][Freeware Icon]
 - [Infinality bundle & fonts](https://bohoomil.com/) - *Pre-note: Infinality is currently not maintained anymore by the creator, if on rolling release operating systems, expect breakage*. Infinality bundle & fonts is an Open Source project aimed at Linux administrators and individual users who are looking for a hassle-free way of improving the quality of font rendering. [![Open-Source Software][OSS Icon]](https://github.com/bohoomil/fontconfig-ultimate) ![Freeware][Freeware Icon]
 - [Mycroft](https://github.com/MycroftAI/mycroft-core) - A.I. for everyone. [![Open-Source Software][OSS Icon]](https://github.com/MycroftAI/mycroft-core) ![Freeware][Freeware Icon]
 - [Polychromatic](https://github.com/lah7/polychromatic) - Graphical front end and tray applet for configuring Razer peripherals on GNU/Linux. [![Open-Source Software][OSS Icon]](https://github.com/lah7/polychromatic) ![Freeware][Freeware Icon]
 
-## Command Line Utilities
+## Утилиты командной строки
 - [Bastet](https://github.com/fph/bastet) - Play Tetris in commandline.[![Open-Source Software][OSS Icon]](https://github.com/fph/bastet)![Freeware][Freeware Icon]
 - [Buku](https://github.com/jarun/Buku) - Command line bookmark managers.[![Open-Source Software][OSS Icon]](https://github.com/jarun/Buku)![Freeware][Freeware Icon]
 - [Daily Reddit Wallpaper](https://github.com/ssimunic/Daily-Reddit-Wallpaper) - Change your wallpaper to the most upvoted image of the day from /r/wallpapers or any other subreddit on system startup. [![Open-Source Software][OSS Icon]](https://github.com/ssimunic/Daily-Reddit-Wallpaper)![Freeware][Freeware Icon]
@@ -662,7 +651,7 @@ firewall zones to define the trust level of network connections or interfaces. !
 - [wicd-curses](https://wiki.archlinux.org/index.php/wicd#Running_Wicd_in_Text_Mode) - Command line WiFi connection manager.
 
 
-## Desktop Environments
+## Среды рабочего стола
 - [Budgie](http://www.omgubuntu.co.uk/2016/09/install-budgie-desktop-on-ubuntu) - Budgie is a desktop environment designed with the modern user in mind, it focuses on simplicity and elegance. [![Open-Source Software][OSS Icon]](https://github.com/solus-project/budgie-desktop) ![Freeware][Freeware Icon]
 - [Cinnamon](http://cinnamon.linuxmint.com/) - Cinnamon strives to provide a traditional user experience. Cinnamon is a fork of GNOME 3. [![Open-Source Software][OSS Icon]](https://github.com/linuxmint/Cinnamon) ![Freeware][Freeware Icon]
 - [Deepin DE](https://www.deepin.org/en/dde/) - DDE (Deepin Desktop Environment) is the default desktop environment originally created for the Linux Deepin distribution.  [![Open-Source Software][OSS Icon]](https://github.com/linuxdeepin/dde-desktop) ![Freeware][Freeware Icon]
@@ -677,14 +666,14 @@ firewall zones to define the trust level of network connections or interfaces. !
 - [Unity](https://unity.ubuntu.com/) - Unity is a shell for GNOME designed by Canonical for Ubuntu. ![Freeware][Freeware Icon]
 - [Xfce](https://www.xfce.org/) - Xfce embodies the traditional UNIX philosophy of modularity and re-usability. [![Open-Source Software][OSS Icon]](https://github.com/xfce-mirror) ![Freeware][Freeware Icon]
 
-## Display manager
+## Менеджеры входа
 
-### Console
+### Консольные
 - [CDM](https://github.com/ghost1227/cdm) - Ultra-minimalistic, yet full-featured login manager written in Bash. [![Open-Source Software][OSS Icon]](https://github.com/ghost1227/cdm) ![Freeware][Freeware Icon]
 - [Console TDM](https://github.com/dopsi/console-tdm) - Extension for xinit written in pure Bash. [![Open-Source Software][OSS Icon]](https://github.com/dopsi/console-tdm) ![Freeware][Freeware Icon]
 - [nodm](https://github.com/spanezz/nodm) - Minimalistic display manager for automatic logins. [![Open-Source Software][OSS Icon]](https://github.com/spanezz/nodm) ![Freeware][Freeware Icon]
 
-### Graphic
+### Графические
 - [Entrance](http://enlightenment.org) - An EFL based display manager, highly experimental. [![Open-Source Software][OSS Icon]](https://github.com/tomas/entrance) ![Freeware][Freeware Icon]
 - [GDM](https://wiki.gnome.org/Projects/GDM) - GNOME display manager. [![Open-Source Software][OSS Icon]](https://github.com/GNOME/gdm) ![Freeware][Freeware Icon]
 - [KDM](http://www.kde.org) - KDE4 display manager (discontinued). ![Freeware][Freeware Icon]
@@ -695,31 +684,31 @@ firewall zones to define the trust level of network connections or interfaces. !
 - [SLiM](http://sourceforge.net/projects/slim.berlios/) - Lightweight and elegant graphical login solution. (discontinued) [![Open-Source Software][OSS Icon]](https://github.com/gsingh93/slim-display-manager) ![Freeware][Freeware Icon]
 - [XDM](http://www.x.org/archive/X11R7.5/doc/man/man1/xdm.1.html) - X display manager with support for XDMCP, host chooser. [![Open-Source Software][OSS Icon]](https://github.com/bbidulock/xdm) ![Freeware][Freeware Icon]
 
-## Window Managers
+## Оконные менеджеры
 
-### Compositors
+### Композитные
 - [Compton](https://github.com/chjj/compton/wiki) - Compton is a standalone composite manager, suitable for use with window managers that do not natively provide compositing functionality. [![Open-Source Software][OSS Icon]](https://github.com/chjj/compton) ![Freeware][Freeware Icon]
 - [Xcompmgr](https://cgit.freedesktop.org/xorg/app/xcompmgr) - Xcompmgr is a simple composite manager capable of rendering drop shadows and, with the use of the transset utility, primitive window transparency. [![Open-Source Software][OSS Icon]](https://cgit.freedesktop.org/xorg/app/xcompmgr) ![Freeware][Freeware Icon]
 
-### Stacking window managers
+### Стековые
 - [2bwm](https://github.com/venam/2bwm) - Fast floating WM, with the particularity of having 2 borders, written over the XCB library and derived from mcwm. [![Open-Source Software][OSS Icon]](https://github.com/venam/2bwm) ![Freeware][Freeware Icon]
 - [Blackbox](http://blackboxwm.sourceforge.net) - Fast, lightweight window manager for the X Window System, without all those annoying library dependencies. [![Open-Source Software][OSS Icon]](https://github.com/bbidulock/blackboxwm) ![Freeware][Freeware Icon]
 - [Fluxbox](http://fluxbox.org) - Window manager for X that was based on the Blackbox 0.61.1 code. [![Open-Source Software][OSS Icon]](https://github.com/fluxbox/fluxbox) ![Freeware][Freeware Icon]
 - [Openbox](http://openbox.org) - Highly configurable, next generation window manager with extensive standards support. [![Open-Source Software][OSS Icon]](https://github.com/danakj/openbox) ![Freeware][Freeware Icon]
 
-### Tiling window managers
+### Тайловые
 - [Bspwm](https://github.com/baskerville/bspwm/wiki) - bspwm is a tiling window manager that represents windows as the leaves of a full binary tree. [![Open-Source Software][OSS Icon]](https://github.com/baskerville/bspwm) ![Freeware][Freeware Icon]
 - [Herbstluftwm](https://herbstluftwm.org) - Manual tiling window manager for X11 using Xlib and Glib. [![Open-Source Software][OSS Icon]](https://github.com/herbstluftwm/herbstluftwm) ![Freeware][Freeware Icon]
 - [Qtile](http://www.qtile.org/) - qtile is a full-featured, hackable tiling window manager written and configured in Python [![Open-Source Software][OSS Icon]](https://github.com/qtile/qtile) ![Freeware][Freeware Icon]
 
-### Dynamic window managers
+### Динамические
 - [awesome](https://awesome.naquadah.org) - Highly configurable, next generation framework window manager for X. [![Open-Source Software][OSS Icon]](https://github.com/awesomeWM/awesome) ![Freeware][Freeware Icon]
 - [dwm](http://dwm.suckless.org) - Dynamic window manager for X. It manages windows in tiled, monocle and floating layouts. [![Open-Source Software][OSS Icon]](https://github.com/cdown/dwm) ![Freeware][Freeware Icon]
 - [i3](https://i3wm.org) - Tiling window manager, completely written from scratch. [![Open-Source Software][OSS Icon]](https://github.com/i3/i3) ![Freeware][Freeware Icon]
 - [spectrwm](https://github.com/conformal/spectrwm/wiki) - Small dynamic tiling window manager for X11, largely inspired by xmonad and dwm. [![Open-Source Software][OSS Icon]](https://github.com/conformal/spectrwm) ![Freeware][Freeware Icon]
 - [xmonad](http://xmonad.org) - Dynamically tiling X11 window manager that is written and configured in Haskell. [![Open-Source Software][OSS Icon]](https://github.com/xmonad/xmonad) ![Freeware][Freeware Icon]
 
-## Setup
+## Установка
 
 - [What is Linux](https://www.linux.com/what-is-linux)
 - [Basic Linux term](http://www.makeuseof.com/tag/linux-confusing-key-terms-definitions/)
@@ -759,33 +748,33 @@ firewall zones to define the trust level of network connections or interfaces. !
 - [What to do after installing Ubuntu](http://www.omgubuntu.co.uk/2016/04/10-things-to-do-after-installing-ubuntu-16-04-lts)
 
 
-### Other distros
+### Другие дистрибутивы
 
 > To be added later
 
-## Discussion Forums
+## Форумы
 
-### Arch Linux Forums
+### Форумы Arch Linux
 
 * [Arch Linux Forums](https://bbs.archlinux.org/)
 * [Arch Linux ARM Forums](https://archlinuxarm.org/forum/viewforum.php?f=31)
 
-### CentOS Forums
+### Форумы CentOS
 
 * [CentOS Forum](https://www.centos.org/forums/)
 
-### Ubuntu Forums
+### Форумы Ubuntu
 
 * [Ubuntu Forum](https://ubuntuforums.org/)
 * [Ask Ubuntu](askubuntu.com/)
 
-### openSUSE Forums
+### Форумы openSUSE
 
 * [openSUSE Forum](https://forums.opensuse.org/forum.php)
 
 
 
-### IRC channels
+### IRC каналы
 * [#linux](http://webchat.freenode.net/?channels=#linux)
 * [#ubuntu](https://webchat.freenode.net/?channels=ubuntu)
 * [#archlinux](http://webchat.freenode.net/?channels=archlinux)
@@ -794,7 +783,7 @@ firewall zones to define the trust level of network connections or interfaces. !
 * [#docker](http://webchat.freenode.net/?channels=docker)
 * [#bash](http://webchat.freenode.net/?channels=bash)
 
-### Linux News, Apps, and more ....
+### Новости Linux, Приложения и т.п.
 
 * [OMG!Ubuntu](http://www.omgubuntu.co.uk/)
 * [ITSFOSS](https://itsfoss.com/)
@@ -824,7 +813,7 @@ firewall zones to define the trust level of network connections or interfaces. !
 * [Linux Kernel](https://www.reddit.com/r/kernel/)
 * [Linux Gaming](https://www.reddit.com/r/linux_gaming/)
 
-## Learn Linux
+## Изучение Linux
 
 - [Learn Linux Command](http://linuxcommand.org/)
 - [GNU/Linux Command-Line Tools Summary](http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/book1.htm)
@@ -833,7 +822,7 @@ firewall zones to define the trust level of network connections or interfaces. !
 - [Linus Pocket Guide](http://www.opencore.eesc.usp.br/bruno/livros/Linux_Pocket_Guide.pdf)
 - [Linux Command Line with Bash - Tek Linux](https://www.youtube.com/watch?v=ltjPIpilqow)
 
-## Linux Hacking/Development
+## Linux Хакинг/Разработка
 
 - [Kernel Newbies](https://kernelnewbies.org/)
 - [Linux Insides](https://0xax.gitbooks.io/linux-insides/content/index.html)
@@ -843,7 +832,7 @@ firewall zones to define the trust level of network connections or interfaces. !
 - [Linux Kernel Mailing List Archive](https://lkml.org/)
 - [Linux Kernel Module Programming Guide (PDF)](http://www.tldp.org/LDP/lkmpg/2.6/lkmpg.pdf)
 
-## Contributors
+## Контрибуторы
 
 [**List of contributors**](https://github.com/LewisVo/Awesome-Ubuntu-Linux/graphs/contributors) :
 
@@ -889,12 +878,12 @@ firewall zones to define the trust level of network connections or interfaces. !
 
  (*The list above is updated on 10th January 2017*)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#содержание)**
 
 
 <br>
 
-## Guideline to contribute
+## Как помочь
 
 > Simply put the name of the **application** in the list.
 > Link to its **homepage** or a **guide** on how to install it.
@@ -911,11 +900,11 @@ firewall zones to define the trust level of network connections or interfaces. !
 
 <br>
 
-## License
+## Лицензия
 
 [![Creative Commons License](http://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
 
-This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Эта работа лицензирована с [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 <div id='donation'/>
 
